@@ -1,8 +1,8 @@
 import React from "react";
 import depanbtp from "../portfolio/depanbtp.png"
-import installNode from "../portfolio/installNode.jpg";
+import hexashop from "../portfolio/hexashop.png";
 import navbar from "../portfolio/navbar.jpg";
-import portfolioimg from "../portfolio/portfolioimg.png";
+import portfolioimg from "../portfolio/porfolioimg.png";
 import reactSmooth from "../portfolio/reactSmooth.jpg";
 import reactWeather from "../portfolio/reactWeather.jpg";
 
@@ -17,24 +17,34 @@ const Portfolio = () => {
     {
       id: 2,
       src: portfolioimg,
+      urlcode:"https://isabellemaze-portfolio.netlify.app",
+      urlcode:"https://github.com/isa95330/portfolio.git",
     
 
     },
     {
       id: 3,
-      src: navbar,
+      src: hexashop,
+      urldemo:"https://hexashopbyisa.netlify.app",
+      urlcode:"https://github.com/isa95330/hexashop.git",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: hexashop,
+      urldemo:"https://hexashopbyisa.netlify.app",
+      urlcode:"https://github.com/isa95330/hexashop.git",
     },
     {
       id: 5,
-      src: installNode,
+      src: hexashop,
+      urldemo:"https://hexashopbyisa.netlify.app",
+      urlcode:"https://github.com/isa95330/hexashop.git",
     },
     {
-      id: 6,
-      src: reactWeather,
+      id: 3,
+      src: hexashop,
+      urldemo:"https://hexashopbyisa.netlify.app",
+      urlcode:"https://github.com/isa95330/hexashop.git",
     },
   ];
 
