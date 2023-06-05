@@ -1,58 +1,51 @@
 import React from "react";
-import depanbtp from "../portfolio/depanbtp.png"
+import depanbtp from "../portfolio/depanbtp.png";
 import hexashop from "../portfolio/hexashop.png";
-import navbar from "../portfolio/navbar.jpg";
+
 import portfolioimg from "../portfolio/porfolioimg.png";
-import reactSmooth from "../portfolio/reactSmooth.jpg";
-import reactWeather from "../portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: depanbtp,
-      urldemo:"https://depanbtp.netlify.app/",
-      urlcode:"https://github.com/isa95330/depanbtp-new",
+      urldemo: "https://depanbtp.netlify.app/",
+      urlcode: "https://github.com/isa95330/depanbtp-new",
     },
     {
       id: 2,
       src: portfolioimg,
-      urlcode:"https://isabellemaze-portfolio.netlify.app",
-      urlcode:"https://github.com/isa95330/portfolio.git",
-    
-
+      urlcode: "https://isabellemaze-portfolio.netlify.app",
+      urlcode: "https://github.com/isa95330/portfolio.git",
     },
     {
       id: 3,
       src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
+      urldemo: "https://hexashopbyisa.netlify.app",
+      urlcode: "https://github.com/isa95330/hexashop.git",
     },
     {
       id: 4,
       src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
+      urldemo: "https://hexashopbyisa.netlify.app",
+      urlcode: "https://github.com/isa95330/hexashop.git",
     },
     {
       id: 5,
       src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
+      urldemo: "https://hexashopbyisa.netlify.app",
+      urlcode: "https://github.com/isa95330/hexashop.git",
     },
     {
       id: 3,
       src: hexashop,
-      urldemo:"https://hexashopbyisa.netlify.app",
-      urlcode:"https://github.com/isa95330/hexashop.git",
+      urldemo: "https://hexashopbyisa.netlify.app",
+      urlcode: "https://github.com/isa95330/hexashop.git",
     },
   ];
 
   return (
-    <div
-      name="portfolio"
-      className=" w-full text-white md:h-screen mt-10 "
-    >
+    <div name="portfolio" className=" w-full text-white md:h-screen mt-10 ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -62,7 +55,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, urldemo, urlcode}) => (
+          {portfolios.map(({ id, src, urldemo, urlcode }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
