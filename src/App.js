@@ -10,10 +10,16 @@ function App() {
   return (
     <div className="bg-gradient-to-b from-black to-gray-800">
       <NavBar />
+     
       <Home />
+      
       <About />
+     
       <Portfolio />
+ 
+    
       <Experience />
+ 
       <Contact />
 
       <SocialLinks />
