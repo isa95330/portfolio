@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
+      id="idabout"
       className="mt-10 w-full h-screen  text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

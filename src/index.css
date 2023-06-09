@@ -3,3 +3,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media screen and (max-width: 85em){
+    #idabout{
+        margin-top: 27rem;
+    }
+    #idportfolio{
+        margin-top: 25rem;
+    }
+    #idexperience{
+        margin-top: 19rem;
+    }
+    #idcontact{
+        margin-top: 25rem;
+    }
+    #idbutton{
+        margin-top: 12rem;
+    }
+}
+@media screen and (min-width: 85em){
+    #none1{
+        display: none;
+    }
+    #none2{
+        display: none;
+    }
+    #idexperience{
+        margin-top: 10rem;
+    }
+}

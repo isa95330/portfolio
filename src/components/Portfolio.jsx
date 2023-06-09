@@ -1,10 +1,9 @@
 import React from "react";
 import depanbtp from "../portfolio/depanbtp.png"
 import hexashop from "../portfolio/hexashop.png";
-import navbar from "../portfolio/navbar.jpg";
+
 import portfolioimg from "../portfolio/porfolioimg.png";
-import reactSmooth from "../portfolio/reactSmooth.jpg";
-import reactWeather from "../portfolio/reactWeather.jpg";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -51,6 +50,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
+      id="idportfolio"
       className=" w-full text-white md:h-screen mt-10 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

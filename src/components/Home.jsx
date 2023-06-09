@@ -24,7 +24,8 @@ const Home = () => {
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-           >
+           id="idbutton">
+            
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
@@ -40,6 +41,12 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
+        <h2 className="text-4xl sm:text-7xl font-bold text-white" id="none1">
+            Développeuse web
+          </h2>
+          <p className="text-gray-500 py-4 max-w-md"id="none2">
+            En formation depuis Septembre 2022 , je suis à la recherche d'une alternance afin de compléter mes connaissances en PHP, Symphony
+          </p>
       </div>
     </div>
   );
